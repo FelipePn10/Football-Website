@@ -11,7 +11,7 @@
 
 section#snkrs{
     background: #f3f2f2de;
-    padding: .3rem;
+    padding: .1rem;
 }
 
 #imgsr{
@@ -21,28 +21,30 @@ section#snkrs{
     text-indent: 15px;
 }
 
+header{
+    position: fixed;
+    width: 100%;
+    top: 13px;
+    right: 40px;
+    z-index: 1000;
+    transition: 0.2s;
+    font-size: .8rem;
+}
+
 #nav {
-   
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    
 }
 
 #nav ul {
     list-style: none;
-    margin: 0;
-    padding: 0px;
-    display: flex;
-}
-
-#nav li {
-    margin-right: 20px;
 }
 
 #nav a {
     text-decoration: none;
     color: #000000;
+    padding: 10px 
 }
 
 #logonike{
@@ -51,7 +53,11 @@ section#snkrs{
     margin-top: 1.2rem;
 }
 
-#navegation{
+section#header{
+    position: fixed;
+    width: 100%;
+    top: 69px;
+    right: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,29 +65,33 @@ section#snkrs{
 
 #navegation ul{
     list-style: none;
-    display: flex;
 }
 
 #navegation li{
-    word-spacing: 10px;
+    word-spacing: 36px;
 }
 
 #navegation a{
     text-decoration: none;
     color: #000000;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 
-#procurar{
+#procurar{ 
+    position: fixed;
+    width: 100%;
+    top: 60px;
+    right: 160px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+   
 }
 
 #search {
-    width: 172px; /* Ajuste a largura conforme necessário */
-    padding: 13.5px; /* Ajuste o preenchimento conforme necessário */
+    width: 165px; /* Ajuste a largura conforme necessário */
+    padding: 12px; /* Ajuste o preenchimento conforme necessário */
     transition: background-color 0.3s; /* Adiciona uma transição suave para a mudança de cor de fundo */
     border-radius: 30px;
     border: none;
@@ -104,10 +114,37 @@ section#snkrs{
     padding-left: 30px;
 }
 
+.favorito {
+    position: fixed;
+    top: 66px;
+    right: 120px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: transparent;
+    cursor: pointer;
+}
 
+.favorito:hover{
+    background: #d3d3d379;
+    border-radius: 50%;
+    cursor: pointer;
+}
 
+.sacola{
+    position: fixed;
+    top: 66px;
+    right: 55px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: transparent;
+    cursor: pointer;
+}
 
-
-
-
+.sacola:hover{
+    background: #d3d3d379;
+    border-radius: 50%;
+    cursor: pointer;
+}
 
