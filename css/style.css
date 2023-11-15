@@ -54,13 +54,14 @@ header{
 }
 
 section#header{
-    position: fixed;
     width: 100%;
     top: 69px;
     right: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+    position: fixed;
 }
 
 #navegation ul{
@@ -147,4 +148,27 @@ section#header{
     border-radius: 50%;
     cursor: pointer;
 }
+
+
+#slide{
+    background-color: #f3f2f2de;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+   margin-top: 25px;
+}
+
+.slideimg{
+    width: 2%;
+}
+
+span.cartao{
+    font-weight: bolder;
+}
+
+.linkum{
+    color: #707070;
+}
+
 
